@@ -31,13 +31,13 @@ h1 {
 }
 
 .author {
-    color: rgb(46, 204, 113) /* Gray color for author name */
+    color: #777777; /* Gray color for author name */
 	
     margin: 5px 0; /* Margin for spacing */
 }
 
 .price {
-    background-color: #2ecc71; /* Green background for price */
+    background-color: rgb(46, 204, 113); /* Green background for price */
     color: white; /* White text for price */
     padding: 5px; /* Padding inside the price block */
     border-radius: 4px; /* Rounded corners for price block */
