@@ -1,34 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
-    <title>Book Library</title>
-</head>
-<body>
-    <div>
-        <h1>Book Library</h1>
-    </div>
-    <div class="book-library">
-        <div class="book">
-            <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg" alt="Spy in the Amber">
-            <h2>Spy in the Amber</h2>
-            <p class="author">By Manohar Malgonkar</p>
-            <p class="price">$10.00</p>
-        </div>
-        <div class="book">
-            <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg" alt="Sacred Games">
-            <h2>Sacred Games</h2>
-            <p class="author">By Vikram Chandra</p>
-            <p class="price">$15.00</p>
-        </div>
-        <div class="book">
-            <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg" alt="Byomkesh Bakshi">
-            <h2>Byomkesh Bakshi</h2>
-            <p class="author">By Sharadindu Bandyopadhyay</p>
-            <p class="price">$12.00</p>
-        </div>
-    </div>
-</body>
-</html>
+body {
+    background-color: #f8f8f8; /* Light gray background */
+    font-family: Arial, sans-serif; /* Font style */
+}
+
+h1 {
+    text-align: center; /* Center the title */
+}
+
+.book-library {
+    background-color: #ffffff; /* White background for the library */
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow books to wrap to the next line */
+    justify-content: space-around; /* Space out the books */
+    padding: 20px; /* Padding around the library */
+}
+
+.book {
+    border: 1px solid #ccc; /* Light border around each book */
+    margin: 15px; /* Margin between books */
+    padding: 10px; /* Padding inside each book */
+    border-radius: 8px; /* Rounded corners */
+    width: 200px; /* Fixed width for each book */
+    text-align: center; /* Center text in each book */
+}
+
+.book img {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px; /* Rounded corners for images */
+}
+
+.author {
+    color: #777777; /* Gray color for author name */
+    margin: 5px 0; /* Margin for spacing */
+}
+
+.price {
+    background-color: #2ecc71; /* Green background for price */
+    color: white; /* White text for price */
+    padding: 5px; /* Padding inside the price block */
+    border-radius: 4px; /* Rounded corners for price block */
+}
