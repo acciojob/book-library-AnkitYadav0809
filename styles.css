@@ -31,7 +31,8 @@ h1 {
 }
 
 .author {
-    color: #777777; /* Gray color for author name */
+    color: rgb(46, 204, 113) /* Gray color for author name */
+	
     margin: 5px 0; /* Margin for spacing */
 }
 
