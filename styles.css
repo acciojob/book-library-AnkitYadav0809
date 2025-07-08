@@ -37,8 +37,8 @@ h1 {
 }
 
 .price {
-    background-color: rgb(46, 204, 113); /* Green background for price */
-    color: white; /* White text for price */
+    background-color: #2ecc71; /* Green background for price */
+    color: #2ecc71; /* White text for price */
     padding: 5px; /* Padding inside the price block */
     border-radius: 4px; /* Rounded corners for price block */
 }
